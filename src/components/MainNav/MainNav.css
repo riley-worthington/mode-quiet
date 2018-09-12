@@ -18,7 +18,7 @@ header {
   align-items: center;
 }
 
-.nav-ul {
+.nav-bar {
   font-weight: 300;
   font-style: normal;
   font-size: 13px;
@@ -28,16 +28,17 @@ header {
   list-style: none;
 }
 
-.nav-ul li {
+.nav-bar a {
   color: #424242;
   margin: 0 1.62em;
   padding: .618em 0;
   text-transform: uppercase;
+  text-decoration: none;
   cursor: pointer;
   transition: color 170ms ease-in-out;
 }
 
-.nav-ul li:hover {
+.nav-bar a:hover {
   color: rgba(66,66,66,.4);
   transition: color 170ms ease-in-out;
 }
