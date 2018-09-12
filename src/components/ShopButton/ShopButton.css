@@ -1,0 +1,22 @@
+.shop-button {
+  color: grey;
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 21px 34px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: .15em;
+  transition: 0.1s linear;
+}
+
+.shop-button:hover {
+  border-color: grey;
+  background-color: grey;
+  color: white;
+  /* transition: 0.1s background-color linear, 0.1s color linear; */
+  transition: 0.1s linear;
+}
