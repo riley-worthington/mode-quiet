@@ -1,0 +1,45 @@
+
+.intro-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.intro-image-container {
+  padding: 17px;
+  width: auto;
+  height: auto;
+}
+
+.intro-image {
+  max-width: 545px;
+  width: auto;
+  height: auto;
+}
+
+.intro-text {
+  max-width: 700px;
+  min-width: 400px;
+  flex: 1 1 400px;
+  width: 100%;
+  padding: 17px;
+  text-align: left;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: .05em;
+  line-height: 1.4em;
+  text-transform: none;
+  color: grey;
+}
+
+.intro-text h2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.intro-text p {
+  margin: 18px 0px;
+}

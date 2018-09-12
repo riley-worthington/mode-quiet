@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 39px 18px;
+}
+
+.header-branding {
+  padding: 1px 24px;
+}
+
+.branding-logo {
+  max-width: 178px;
+}
+
+.top-right-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-ul {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  display: flex;
+  list-style: none;
+}
+
+.nav-ul li {
+  color: #424242;
+  margin: 0 1.62em;
+  padding: .618em 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 170ms ease-in-out;
+}
+
+.nav-ul li:hover {
+  color: rgba(66,66,66,.4);
+  transition: color 170ms ease-in-out;
+}
+
+.cart {
+  padding: 1px 24px;
+}
