@@ -20,3 +20,7 @@
   /* transition: 0.1s background-color linear, 0.1s color linear; */
   transition: 0.1s linear;
 }
+
+.button-container {
+  padding: 17px;
+}

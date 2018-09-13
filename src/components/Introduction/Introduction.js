@@ -15,9 +15,7 @@ const Introduction = () => {
           <p>Whether it’s 10 minutes, 10 hours, or 10 days, QuietFrame substitutes for a smartphone and other devices to create tech-free space in an otherwise digital day.</p>
           <p>Shift into a different mode. Silence Calling™</p>
         </div>
-        <div className='button-container'>
-          <ShopButton />
-        </div>
+        <ShopButton />
       </div>
     </div>
   );

@@ -3,9 +3,11 @@ import './ShopButton.css';
 
 const ShopButton = () => {
   return (
-    <a className='shop-button' href="">
-      Shop Frames
-    </a>
+    <div className='button-container'>
+      <a className='shop-button' href="">
+        Shop Frames
+      </a>
+    </div>
   );
 }
 

@@ -3,6 +3,7 @@ import MainNav from './components/MainNav/MainNav';
 import Splash from './components/Splash/Splash';
 import Introduction from './components/Introduction/Introduction';
 import Iconography from './components/Iconography/Iconography';
+import ShopButton from './components/ShopButton/ShopButton';
 import './App.css';
 import Fade from 'react-reveal/Fade';
 
@@ -19,9 +20,11 @@ class App extends Component {
         <Fade>
           <Iconography />
         </Fade>
-        {/* <Collage />
-        <ShopButton />
-        <Announcement />
+        {/* <Collage /> */}
+        <div className='button-section'>
+          <ShopButton />
+        </div>
+        {/* <Announcement />
         <BottomNav />
         <Legal /> */}
       </div>
