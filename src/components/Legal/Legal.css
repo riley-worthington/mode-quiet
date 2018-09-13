@@ -1,0 +1,35 @@
+.legal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: .05em;
+  line-height: 1.4em;
+  text-transform: none;
+  color: grey;
+  text-align: center;
+}
+
+.legal p {
+  margin: 5px 0;
+}
+
+.legal-links {
+  margin-top: 20px;
+}
+
+.legal-links a {
+  text-decoration: none;
+  color: rgba(0,0,0,.51);
+  padding-bottom: .05em;
+  border-bottom: 1px solid rgba(0,0,0,.153);
+  transition: border-color .15s ease-out, color .15s ease-out;
+}
+
+.legal-links a:hover {
+  color: rgba(0,0,0,.306);
+  border-color: rgba(0,0,0,.0765);
+  transition: border-color .15s ease-out, color .15s ease-out;
+}

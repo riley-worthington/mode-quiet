@@ -6,7 +6,7 @@ const Announcement = () => {
     <div className='announcement-row'>
       <div className='announcement-box'>
         <p>
-          Visit us at the SXSW <a href=''>Wellness Expo</a>
+          Visit us at the SXSW <a href='https://www.sxsw.com/exhibitions/sxsw-wellness-expo/'>Wellness Expo</a>
         </p>
         <p>
           March 9-10, 2019
