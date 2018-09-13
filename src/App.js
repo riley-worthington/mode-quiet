@@ -4,6 +4,7 @@ import Splash from './components/Splash/Splash';
 import Introduction from './components/Introduction/Introduction';
 import Iconography from './components/Iconography/Iconography';
 import ShopButton from './components/ShopButton/ShopButton';
+import Collage from './components/Collage/Collage';
 import './App.css';
 import Fade from 'react-reveal/Fade';
 
@@ -20,7 +21,7 @@ class App extends Component {
         <Fade>
           <Iconography />
         </Fade>
-        {/* <Collage /> */}
+        <Collage />
         <div className='button-section'>
           <ShopButton />
         </div>
