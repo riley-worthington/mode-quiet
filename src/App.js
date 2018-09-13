@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MainNav from './components/MainNav/MainNav';
 import Splash from './components/Splash/Splash';
 import Introduction from './components/Introduction/Introduction';
+import Iconography from './components/Iconography/Iconography';
 import './App.css';
 import Fade from 'react-reveal/Fade';
 
@@ -15,8 +16,10 @@ class App extends Component {
         <Fade>
           <Introduction />
         </Fade>
-        {/* <Iconography />
-        <Collage />
+        <Fade>
+          <Iconography />
+        </Fade>
+        {/* <Collage />
         <ShopButton />
         <Announcement />
         <BottomNav />
