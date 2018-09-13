@@ -5,6 +5,7 @@ import Introduction from './components/Introduction/Introduction';
 import Iconography from './components/Iconography/Iconography';
 import ShopButton from './components/ShopButton/ShopButton';
 import Collage from './components/Collage/Collage';
+import Announcement from './components/Announcement/Announcement';
 import './App.css';
 import Fade from 'react-reveal/Fade';
 
@@ -25,8 +26,8 @@ class App extends Component {
         <div className='button-section'>
           <ShopButton />
         </div>
-        {/* <Announcement />
-        <BottomNav />
+        <Announcement />
+        {/* <BottomNav />
         <Legal /> */}
       </div>
     );
